@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            height: 125px;
+        }
+
+        a:link {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: 3px solid green;
+            text-decoration: none;
+            text-align: center;
+            padding: 14px 25px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: green;
+            color: white;
+        }
+
+        .container{
+            text-align: center;
+            color: white;
+        }
+
+        .container1{
+            border: 1px solid black;
+            background-color: blue;
+            height: 20px;
+            width: 200px;
+            float: left;
+        }
+
+        .container2{
+            border: 1px solid black;
+            background-color: red;
+            height: 20px;
+            width: 200px;
+            float: right;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        #nav{
+            background-color: yellow;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        #nav li{
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        a:link{
+            color: rgb(105, 31, 31);
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: royalblue;
+        }
+/* 
+        p::first-letter{
+            color: red;
+            font-size: larger;
+        }
+
+        p::first-line{
+            font-variant: small-caps;
+            color: #0000FF;
+        } */
+
+        p#hidden2{
+            display: none;
+            font-size: 20px;
+            padding: 20px;
+            background-color: green;
+            color: white;
+        }
+
+        #hidden:hover p{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="car.jpeg" alt="Photo of car">
+    <h2>Styling a link</h2>
+    <p>
+        <b><a href="https://www.youtube.com/" target="_blank">Visit youtube</a></b>
+    </p>
+
+    <div class="container">
+        <span class="container1">Float left</span>
+        <span class="container2">Float right</span>
+    </div><br><br>
+
+    <h3>Horizontal navigation link</h3>
+    <p>by default navigation link is always vertical but with the use of css you can align it horizontaly</p>
+
+    <ul id="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="About us">About us</a></li>
+        <li><a href="contact us">Contact us</a></li>
+        <li><a href="our client">Our client</a></li>
+    </ul>
+
+    <p>You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+
+    <div id="hidden">Hover over this item
+        <p id="hidden2">This is hidden item</p>
+    </div>
+
+</body>
+
+</html>

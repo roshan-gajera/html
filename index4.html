@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3#flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid green;
+            height: 100px;
+        }
+
+        /* div ~  p{
+            background-color: bisque;
+            font-size: 20px;
+        } */
+
+        h3#hover{
+            background-color: aquamarine;
+            display: inline-block;
+            width: 200px;
+            height: 30px;
+            text-align: center;
+        }
+
+        #hover:hover{
+            color: white;
+            background-color: blue;
+            cursor: grab;
+        }
+
+        p.hidden{
+            display: none;
+            padding: 20px;
+            background-color: yellow;
+        }
+
+        div#h1:hover p{
+            display: block;
+        }
+
+        ::selection{
+            background-color: yellow;
+            color: red;
+        }
+
+        img{
+            width: 20%;
+            opacity: 1;
+        }
+
+        img:hover{
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        div{
+            padding: 10px;
+            background-color: rgb(11, 117, 82);
+        }
+
+        div.first{
+            opacity: 0;
+        }
+
+        div.second{
+            opacity: 0.33;
+        }
+
+        div.third{
+            opacity:0.67;
+        }
+
+        div.fourth{
+            opacity: 1;
+        }
+
+        ul{
+            list-style-type: none;
+            position: sticky;
+            top: 0;
+        }
+
+        li{
+            float: left;
+            background-color: yellow;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            display: block;
+        }
+
+        a:hover{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <br><br><br>
+
+    <h3 id="flex">I am vertically and horizontally centered</h3>
+    <div class="descendent">
+        <p>This is paragraph 1.</p>
+        <p>This is paragraph 2.</p>
+        <p>This is paragraph 3.</p>
+    </div>
+
+    <p>This is paragraph 4 without div</p>
+    <p>This is paragraph 5 without div</p>
+
+    <h3 id="hover">Mouse over me</h3>
+
+    <div id="h1">Hover over this element
+        <p class="hidden">Here is result</p>
+    </div>
+
+    <img src="smiley.png" alt="smiley">
+    <br><br>
+
+    <div class="first">opacity 0</div>
+    <div class="second">opacity 0.33</div>
+    <div class="third">opacity 0.67</div>
+    <div class="fourth">opacity 1</div>
+
+</body>
+</html>
