@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            font-size: large;
+        }
+
+        input[type=text]{
+            width: 10%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus{
+            background-color: lightblue;
+            width: 100%;
+        }
+        
+        select{
+            width: 100%;
+            padding: 12px 20px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <label for="first name">First Name</label>
+        <input type="text" placeholder="Your name...">
+
+        <label for="Last name">Last Name</label>
+        <input type="text" placeholder="Your last name...">
+        <br><br><br>
+
+        <label for="country">Country</label><br>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="United kingdom">United kingdom</option>
+        </select>
+    </form>
+</body>
+</html>

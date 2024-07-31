@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: inline-block;
+            background-color: black;
+        }
+
+        .dropdown{
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .content{
+            display: none;
+        }
+
+        .dropdown:hover .content{
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Example of dropdown-image</h2>
+    <div class="dropdown">
+    <img src="smiley.png" alt="smiley" width="50" height="50">
+    <div class="content">
+        <img src="smiley.png" alt="smiley face" width="300" height="300">
+    </div>
+    </div>
+
+    <a href="car.jpeg" target="_blank">
+        <img src="car.jpeg" alt="car">
+    </a>
+</body>
+</html>

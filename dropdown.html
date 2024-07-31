@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+            display: inline-block;
+        }
+
+        .dropdown button{
+            background-color: hsl(0, 0%, 71%);
+            padding: 15px 10px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 10px 15px;
+            background-color: hsl(0, 0%, 91%);
+        }
+
+        .dropdown .content{
+            position: absolute;
+            background-color: white;
+            display: none;
+        }
+
+        .dropdown:hover .content{
+            display: block;
+        }
+
+        .content a:hover{
+            background-color: hsl(0, 0%, 70%);
+        }
+
+        [title|="car"] {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button>Fruits</button>
+        <div class="content">
+            <a href="#">Apple</a>
+            <a href="#">Banana</a>
+            <a href="#">Guava</a>
+        </div>
+    </div>
+
+    <p>This is dropdown menu for html & css</p>
+
+    <img src="car.jpeg" alt="car" title="car-photo">
+</body>
+
+</html>

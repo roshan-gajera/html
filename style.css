@@ -1,0 +1,77 @@
+body{
+    background-image: url(full.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+*{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: large;
+}
+
+#firsth1{
+    font-size: larger;
+}
+
+#roshan{
+    color: red;
+}
+
+.darshik{
+    background-color: bisque;
+}
+
+div > p{
+    color: blue;
+    background-color: blanchedalmond;
+}
+
+#secondh1{
+    background-color: dodgerblue;
+    border: 1px solid tomato;
+}
+
+p{
+    background-color: tomato;
+}
+
+#opacity{
+    background-color: green;
+    opacity: 25%;
+}
+
+#opacity2{
+    background-color: green;
+    opacity: 50%;
+}
+
+#opacity3{
+    background-color: green;
+    opacity: 75%;
+}
+
+#opacity4{
+    background-color: green;
+    opacity: 100%;
+}
+
+#allb{
+    border-style: dotted ridge solid double;
+}
+
+#rbb{
+    border-bottom: 5px solid red;
+    display: inline-block;
+}
+
+#rb{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#lb{
+    border: 1px solid black;
+    border-left: 10px solid blue;
+}

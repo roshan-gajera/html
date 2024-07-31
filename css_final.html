@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        h2{
+            background: #ffffff url(car.jpeg) no-repeat right top;
+            white-space: nowrap;
+        }
+
+        h3{
+            border: 2px solid black;
+            text-transform: capitalize;
+            letter-spacing: -2px;
+            line-height: 0.8;
+            display: inline-block;
+            word-spacing: 5px;
+            text-shadow: 1px 0px red;
+        }
+
+        ul{
+            list-style-image: linear-gradient(to left bottom, green, yellow);
+        }
+
+        p#p1{
+            border: 2px solid black;
+            max-width: 250px;
+            background-image: radial-gradient(circle,red ,green);
+            /* height: 100px;
+            background-image: conic-gradient(red,yellow,green,blue,black); */
+        }
+
+        p#p2{
+            background-image: url(smiley.png), url(p2.jpeg);
+            background-position: right bottom, left top;      
+            background-repeat: no-repeat, repeat;   
+            padding: 15px;   
+            color: white;
+        }
+
+        p#p3{
+            border: 2px solid black;
+            white-space: nowrap;
+            
+        }
+
+        div.center{
+            margin: auto;
+            width: 50%;
+            border: 2px solid purple;
+            text-align: center;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        p#float{
+            float: left;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        p#pcenter{
+            clear: left;
+            display: flex;
+            justify-content: center;
+        }
+
+        img{
+            filter: drop-shadow(10px 10px 20px black);
+        }
+
+        #boxs{
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+        }
+
+        #boxs:hover{
+            box-shadow: 0 0 2px 2px #9b2121;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is heading 2</h2>
+
+    <i class="material-icons">home</i><br>
+
+    <h3>This is heading 3</h3>
+    <p>this is paragraph
+        sfdsdfsdf sdfsdf sdfsdf 
+        sdfsdf
+    </p>
+
+    <a href="#">Text link</a>
+    <a href="#" style="color: green;">Text link</a>
+    <a href="#" style="border: 2px solid green; padding: 10px; text-decoration: none; color: black;">Link button</a>
+    <a href="#" style="background-color: red; padding: 10px; text-decoration: none; color: white;">Link button</a>
+
+    <ul>
+        <li>Home</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+
+    <p id="p1">This is paragraph 1</p>
+    <p id="p2">This is paragraph 2</p>
+    <p id="p3">This is paragraph 3</p>
+
+    <div class="center">
+        <p>This is centered paragraph</p>
+    </div>
+
+    <p id="float">This is float left para.</p>
+
+    <p id="pcenter">This is padding center para</p>
+
+    <img src="p1.jpeg" alt="logo of html"><br><br>
+
+    <div id="boxs">An example of box shadow</div>
+
+</body>
+</html>

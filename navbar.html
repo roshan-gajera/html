@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul{
+            list-style-type: none;
+            background-color: hsl(0, 0%, 55%);
+            position: fixed;
+            padding: 10px;
+            width: 20%;
+            height: 100%;
+            right: 0;
+        }
+
+        li a{
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            color: white;
+        }
+
+        li a:hover:not(#roshan){
+            background-color: hsl(0, 0%, 33%);
+            color: rgb(153, 54, 54);
+        }
+
+        #roshan{
+            background-color: rgb(124, 175, 175);
+        }
+
+        h2{
+            margin-right: 25%;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="#home" id="roshan">Home</a></li>
+            <li><a href="#home">News</a></li>
+            <li><a href="#home">About us</a></li>
+            <li><a href="#home">Contact</a></li>
+        </ul>
+    </div>
+
+    <h2>There are about navbar in this website</h2>
+</body>
+</html>
